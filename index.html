@@ -17,7 +17,13 @@
       <div
         class="desktop:w-full desktop:h-[85.5px] mobile:w-full mobile:h-[191px] desktop:relative bg-header flex flex-wrap items-center justify-center"
       >
-        <div class="desktop:w-[45%] desktop:h-[inherit] mobile:w-full">
+        <div class="desktop:w-[45%] desktop:h-[inherit] mobile:w-full mobile:relative desktop:hidden">
+          <div class="form-control absolute mobile:top-[50%] mobile:left-[-80px] grid cursor-pointer place-items-center">
+            <label class="label cursor-pointer">
+              <span class="label-text">Remember me</span>
+              <input type="checkbox" class="toggle toggle-secondary" onchange="toggleDarkMode()" checked="checked" />
+            </label>
+          </div>
           <a href="#">
             <img
               src="./public/images/golestan-logo.png"
@@ -28,7 +34,7 @@
         </div>
         <!-- menu Desktop -->
         <div
-          class="desktop:w-[55%] desktop:h-[inherit] desktop:flex desktop:flex-wrap desktop:justify-start desktop:items-end mobile:hidden"
+          class="desktop:w-[55%] desktop:h-[inherit] desktop:flex desktop:flex-wrap desktop:justify-start desktop:items-end mobile:hidden "
         >
         <div class="form-control absolute top-[35px] left-[40px] grid cursor-pointer place-items-center">
           <label class="label cursor-pointer">
@@ -37,7 +43,7 @@
           </label>
         </div>
           <div
-            class="desktop:w-full desktop:h-[55px] flex flex-wrap pb-[20px] gap-5 text-[16px]"
+            class="desktop:w-full desktop:h-[55px] flex flex-wrap pb-[20px] gap-5 text-[16px] "
           >
             <div
               class="h-[30px] pr-[12px] border-r-[1px] border-solid border-gray-500"
@@ -252,7 +258,8 @@
         </div>
         <!-- menu Desktop end -->
         <!-- menu mobile -->
-        <div class="mobile:w-full mobile:h-[50px] desktop:hidden">
+        <div class="mobile:w-full mobile:h-[50px] desktop:hidden desktop:relative">
+          
           <div class="bg-header collapse mobile:rounded-[0]">
             <input type="checkbox" class="peer" />
             <div
@@ -309,7 +316,9 @@
                 <a href="#"> FA</a>
               </div>
             </div>
+            
           </div>
+          
         </div>
         <!-- menu mobile end -->
       </div>

@@ -1718,6 +1718,18 @@ details.collapse summary::-webkit-details-marker {
   right: -0px;
 }
 
+.left-\[0px\] {
+  left: 0px;
+}
+
+.left-\[100px\] {
+  left: 100px;
+}
+
+.left-\[30px\] {
+  left: 30px;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -2541,6 +2553,42 @@ details.collapse summary::-webkit-details-marker {
 @media (min-width: 340px) {
   .mobile\:relative {
     position: relative;
+  }
+
+  .mobile\:left-\[0px\] {
+    left: 0px;
+  }
+
+  .mobile\:top-\[35px\] {
+    top: 35px;
+  }
+
+  .mobile\:top-\[0\] {
+    top: 0;
+  }
+
+  .mobile\:top-\[50px\] {
+    top: 50px;
+  }
+
+  .mobile\:top-\[50\%\] {
+    top: 50%;
+  }
+
+  .mobile\:left-\[10\%\] {
+    left: 10%;
+  }
+
+  .mobile\:left-\[-10\%\] {
+    left: -10%;
+  }
+
+  .mobile\:left-\[-100px\] {
+    left: -100px;
+  }
+
+  .mobile\:left-\[-80px\] {
+    left: -80px;
   }
 
   .mobile\:mx-auto {
