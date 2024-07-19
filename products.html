@@ -13,317 +13,315 @@
   </head>
   <body id="top" cz-shortcut-listen="true">
     <header>
-      <div
-        class="desktop:w-full desktop:h-[85.5px] mobile:w-full mobile:h-[191px] desktop:relative bg-header flex flex-wrap items-center justify-center"
-      >
-        <div class="desktop:w-[45%] desktop:h-[inherit] mobile:w-full">
-          <a href="#">
-            <img
-              src="./public/images/golestan-logo.png"
-              class="desktop:w-[170px] desktop:h-[105px] mobile:w-[143px] mobile:h-[88px] mobile:mx-auto desktop:mx-0 desktop:absolute desktop:left-[20%] top-[40%]"
-              alt=""
-            />
-          </a>
-        </div>
-        <!-- menu Desktop -->
         <div
-          class="desktop:w-[55%] desktop:h-[inherit] desktop:flex desktop:flex-wrap desktop:justify-start desktop:items-end mobile:hidden"
+          class="desktop:w-full desktop:h-[85.5px] mobile:w-full mobile:h-[191px] desktop:relative bg-header flex flex-wrap items-center justify-center"
         >
+          <div class="desktop:w-[45%] desktop:h-[inherit] mobile:w-full mobile:relative desktop:hidden">
+            <div class="form-control absolute mobile:top-[50%] mobile:left-[-80px] grid cursor-pointer place-items-center">
+              <label class="label cursor-pointer">
+                <span class="label-text">Remember me</span>
+                <input type="checkbox" class="toggle toggle-secondary" onchange="toggleDarkMode()" checked="checked" />
+              </label>
+            </div>
+            <a href="#">
+              <img
+                src="./public/images/golestan-logo.png"
+                class="desktop:w-[170px] desktop:h-[105px] mobile:w-[143px] mobile:h-[88px] mobile:mx-auto desktop:mx-0 desktop:absolute desktop:left-[20%] top-[40%]"
+                alt=""
+              />
+            </a>
+          </div>
+          <!-- menu Desktop -->
           <div
-            class="form-control absolute top-[35px] left-[40px] grid cursor-pointer place-items-center"
+            class="desktop:w-[55%] desktop:h-[inherit] desktop:flex desktop:flex-wrap desktop:justify-start desktop:items-end mobile:hidden "
           >
+          <div class="form-control absolute top-[35px] left-[40px] grid cursor-pointer place-items-center">
             <label class="label cursor-pointer">
               <span class="label-text">Remember me</span>
-              <input
-                type="checkbox"
-                class="toggle toggle-secondary"
-                onchange="toggleDarkMode()"
-                checked="checked"
-              />
+              <input type="checkbox" class="toggle toggle-secondary" onchange="toggleDarkMode()" checked="checked" />
             </label>
           </div>
-          <div
-            class="desktop:w-full desktop:h-[55px] flex flex-wrap pb-[20px] gap-5 text-[16px]"
-          >
             <div
-              class="h-[30px] pr-[12px] border-r-[1px] border-solid border-gray-500"
+              class="desktop:w-full desktop:h-[55px] flex flex-wrap pb-[20px] gap-5 text-[16px] "
             >
-              <a href="./index.html" class="text-[#AFB2B4] hover:text-white">
-                Home
-              </a>
-            </div>
-
-            <div
-              class="h-[30px] pr-[12px] border-r-[1px] border-solid border-gray-500 group group-hover:text-white duration-300 relative"
-            >
-              <a href="#" class="text-[#AFB2B4] hover:text-white"> About Us </a>
               <div
-                class="desktop:w-[180px] desktop:h-auto bg-[#2D2D2D] desktop:hidden desktop:group-hover:flex desktop:flex-wrap desktop:items-center desktop:absolute top-[25px] desktop:left-[-30px]"
+                class="h-[30px] pr-[12px] border-r-[1px] border-solid border-gray-500"
               >
+                <a href="#" class="text-[#AFB2B4] hover:text-white"> Home </a>
+              </div>
+              
+              <div
+                class="h-[30px] pr-[12px] border-r-[1px] border-solid border-gray-500 group group-hover:text-white duration-300 relative"
+              >
+                <a href="#" class="text-[#AFB2B4] hover:text-white"> About Us </a>
                 <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
+                  class="desktop:w-[180px] desktop:h-auto bg-[#2D2D2D] desktop:hidden desktop:group-hover:flex desktop:flex-wrap desktop:items-center desktop:absolute top-[25px] desktop:left-[-30px]"
                 >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    About Golestan
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      About Golestan
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Our History
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Our History
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    golestan CSR
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      golestan CSR
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Sales
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Sales
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Distribution
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Distribution
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Careers
-                  </a>
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Careers
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              class="h-[30px] pr-[12px] border-r-[1px] border-solid border-gray-500"
-            >
-              <a href="#" class="text-[#AFB2B4] hover:text-white"> Brands </a>
-            </div>
-            <div
-              class="h-[30px] pr-[12px] border-r-[1px] border-solid border-gray-500 group group-hover:text-white duration-300 relative"
-            >
-              <a href="./products.html" class="text-[#AFB2B4] hover:text-white">
-                Products
-              </a>
               <div
-                class="desktop:w-[180px] desktop:h-auto bg-[#2D2D2D] desktop:hidden desktop:group-hover:flex desktop:flex-wrap desktop:items-center desktop:absolute top-[25px] desktop:left-[-30px]"
+                class="h-[30px] pr-[12px] border-r-[1px] border-solid border-gray-500"
               >
+                <a href="#" class="text-[#AFB2B4] hover:text-white"> Brands </a>
+              </div>
+              <div
+                class="h-[30px] pr-[12px] border-r-[1px] border-solid border-gray-500 group group-hover:text-white duration-300 relative"
+              >
+                <a href="./products.html" class="text-[#AFB2B4] hover:text-white"> Products </a>
                 <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
+                  class="desktop:w-[180px] desktop:h-auto bg-[#2D2D2D] desktop:hidden desktop:group-hover:flex desktop:flex-wrap desktop:items-center desktop:absolute top-[25px] desktop:left-[-30px]"
                 >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Tea
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Tea
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Pistachios
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Pistachios
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Spices
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Spices
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Rice
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Rice
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Saffron
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Saffron
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Herbal Teas
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Herbal Teas
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Grains
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Grains
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Sugar
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Sugar
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Herbal Teas
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Herbal Teas
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Others
-                  </a>
-                </div>
-                <div
-                  class="w-full h-[46px] flex flex-wrap items-center justify-start"
-                >
-                  <a
-                    href="#"
-                    class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Others
+                    </a>
+                  </div>
+                  <div
+                    class="w-full h-[46px] flex flex-wrap items-center justify-start"
                   >
-                    Hotikara product
-                  </a>
+                    <a
+                      href="#"
+                      class="text-[#AFB2B4] hover:text-white py-[13px] px-[20px]"
+                    >
+                      Hotikara product
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              class="h-[30px] pr-[12px] border-r-[1px] border-solid border-gray-500"
-            >
-              <a href="#" class="text-[#AFB2B4] hover:text-white">
-                Contact Us
-              </a>
-            </div>
-            <div class="h-[30px] border-gray-500">
-              <a href="#" class="text-[#AFB2B4] hover:text-white"> FA </a>
+              <div
+                class="h-[30px] pr-[12px] border-r-[1px] border-solid border-gray-500"
+              >
+                <a href="#" class="text-[#AFB2B4] hover:text-white">
+                  Contact Us
+                </a>
+              </div>
+              <div class="h-[30px] border-gray-500">
+                <a href="#" class="text-[#AFB2B4] hover:text-white"> FA </a>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- menu Desktop end -->
-        <!-- menu mobile -->
-        <div class="mobile:w-full mobile:h-[50px] desktop:hidden">
-          <div class="bg-header collapse mobile:rounded-[0]">
-            <input type="checkbox" class="peer" />
-            <div
-              class="flex justify-end collapse-title bg-header text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content p-0 px-[20px]"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                class="w-[30px] h-[30px]"
-                viewBox="0,0,300,150"
-                style="fill: #ffffff"
+          <!-- menu Desktop end -->
+          <!-- menu mobile -->
+          <div class="mobile:w-full mobile:h-[50px] desktop:hidden desktop:relative">
+            
+            <div class="bg-header collapse mobile:rounded-[0]">
+              <input type="checkbox" class="peer" />
+              <div
+                class="flex justify-end collapse-title bg-header text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content p-0 px-[20px]"
               >
-                <g
-                  fill="#ffffff"
-                  fill-rule="nonzero"
-                  stroke="none"
-                  stroke-width="1"
-                  stroke-linecap="butt"
-                  stroke-linejoin="miter"
-                  stroke-miterlimit="10"
-                  stroke-dasharray=""
-                  stroke-dashoffset="0"
-                  font-family="none"
-                  font-weight="none"
-                  font-size="none"
-                  text-anchor="none"
-                  style="mix-blend-mode: normal"
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  class="w-[30px] h-[30px]"
+                  viewBox="0,0,300,150"
+                  style="fill: #ffffff"
                 >
-                  <g transform="scale(5.12,5.12)">
-                    <path
-                      d="M5,8c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,23c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,38c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175z"
-                    ></path>
+                  <g
+                    fill="#ffffff"
+                    fill-rule="nonzero"
+                    stroke="none"
+                    stroke-width="1"
+                    stroke-linecap="butt"
+                    stroke-linejoin="miter"
+                    stroke-miterlimit="10"
+                    stroke-dasharray=""
+                    stroke-dashoffset="0"
+                    font-family="none"
+                    font-weight="none"
+                    font-size="none"
+                    text-anchor="none"
+                    style="mix-blend-mode: normal"
+                  >
+                    <g transform="scale(5.12,5.12)">
+                      <path
+                        d="M5,8c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,23c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,38c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175z"
+                      ></path>
+                    </g>
                   </g>
-                </g>
-              </svg>
+                </svg>
+              </div>
+              <div
+                class="collapse-content bg-header text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content flex flex-wrap items-center"
+              >
+                <div class="w-full px-[15px] py-[12px] text-end text-white">
+                  <a href="#"> Home </a>
+                </div>
+                <div class="w-full px-[15px] py-[12px] text-end text-[#AFB2B4]">
+                  <a href="#"> About Us</a>
+                </div>
+                <div class="w-full px-[15px] py-[12px] text-end text-[#AFB2B4]">
+                  <a href="./products.html"> Products</a>
+                </div>
+                <div class="w-full px-[15px] py-[12px] text-end text-[#AFB2B4]">
+                  <a href="#"> Contact Us</a>
+                </div>
+                <div class="w-full px-[15px] py-[12px] text-end text-[#AFB2B4]">
+                  <a href="#"> FA</a>
+                </div>
+              </div>
+              
             </div>
-            <div
-              class="collapse-content bg-header text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content flex flex-wrap items-center"
-            >
-              <div class="w-full px-[15px] py-[12px] text-end text-white">
-                <a href="./index.html"> Home </a>
-              </div>
-              <div class="w-full px-[15px] py-[12px] text-end text-[#AFB2B4]">
-                <a href="#"> About Us</a>
-              </div>
-              <div class="w-full px-[15px] py-[12px] text-end text-[#AFB2B4]">
-                <a href="./products.html"> Products</a>
-              </div>
-              <div class="w-full px-[15px] py-[12px] text-end text-[#AFB2B4]">
-                <a href="#"> Contact Us</a>
-              </div>
-              <div class="w-full px-[15px] py-[12px] text-end text-[#AFB2B4]">
-                <a href="#"> FA</a>
-              </div>
-            </div>
+            
           </div>
+          <!-- menu mobile end -->
         </div>
-        <!-- menu mobile end -->
-      </div>
-    </header>
+      </header>
 
     <div class="w-full h-[395px] bg-[#CDE4B0] flex flex-wrap items-center dark:bg-[#2b2b2b]">
       <div
